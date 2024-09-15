@@ -1,20 +1,24 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
-  color: #22343d;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #22343d;
 }
+
 ul,
 ol {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -22,43 +26,90 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+    margin: 0;
 }
+
 img {
-  display: block;
+    display: block;
 }
+
+.container {
+    width: 1150px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+
 /*-------Header-------*/
-.header {
+
+.header {}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
+
 .header-logo {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 0.93333;
-  color: #173a56;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-right: auto;
 }
+
 .header-nav {
+    margin-right: 24px;
 }
+
 .header-nav-list {
+    display: flex;
+    gap: 30px;
 }
-.header-nav-item {
-}
+
+.header-nav-item {}
+
 .header-nav-link {
-  font-size: 16px;
-  line-height: 1.75;
-  color: #22343d;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    display: block;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
+
 .current {
-  font-weight: 600;
+    font-weight: 600;
 }
+
 .header-btn-list {
+    display: flex;
+    gap: 24px;
 }
-.header-btn-item {
-}
+
+.header-btn-item {}
+
 .header-btn {
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #173a56;
-  background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+    min-width: 102px;
+    height: 42px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
 }
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: #02897a;
+    border: none;
+    color: #fff;
+}
+
+
 /*-------/Header------*/
