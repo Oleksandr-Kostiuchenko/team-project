@@ -1,22 +1,22 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    color: #22343d;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #22343d;
 }
 
 ul,
 ol {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 h1,
@@ -26,90 +26,162 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .container {
-    width: 1150px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin: 0 auto;
+  width: 1150px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
 }
-
 
 /*-------Header-------*/
 
-.header {}
+.header {
+}
 
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 0.93333;
-    color: #173a56;
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    margin-right: auto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-right: auto;
 }
 
 .header-nav {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .header-nav-list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
-.header-nav-item {}
+.header-nav-item {
+}
 
 .header-nav-link {
-    font-size: 16px;
-    line-height: 1.75;
-    color: #22343d;
-    display: block;
-    padding-top: 26px;
-    padding-bottom: 26px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  display: block;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .current {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .header-btn-list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
-.header-btn-item {}
+.header-btn-item {
+}
 
 .header-btn {
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #173a56;
-    background-color: transparent;
-    min-width: 102px;
-    height: 42px;
-    border: 1px solid #bcd0e5;
-    border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  background-color: transparent;
+  min-width: 102px;
+  height: 42px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
 }
 
 .header-btn:hover,
 .header-btn:focus {
-    background-color: #02897a;
-    border: none;
-    color: #fff;
+  background-color: #02897a;
+  border: none;
+  color: #fff;
 }
 
-
 /*-------/Header------*/
+
+/* Section #region Work by Karpoff */
+.hero-section {
+  background-image: url("../images/hero-img.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  max-width: 1110px;
+  margin: 25px auto 0;
+}
+
+.title-hero-section {
+  width: 465px;
+  color: #22343d;
+  font-size: 40px;
+  line-height: 60px; /* 150% */
+  padding-top: 112px;
+}
+.text-hero-section {
+  width: 465px;
+  color: #22343d;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  padding-top: 18px;
+}
+.buttons-hero-section {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 112px;
+  column-gap: 30px;
+}
+.button-get-started {
+  color: #fff;
+  font-weight: 700;
+  width: 178px;
+  height: 53px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #02897a;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-get-started:hover,
+.button-get-started:focus {
+  color: #173a56;
+  background: #fff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+.button-watch-video-flex {
+  display: flex;
+  align-items: center;
+}
+.button-watch-video {
+  color: #02897a;
+  font-weight: 600;
+  text-decoration: underline;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button-watch-video:hover,
+.button-watch-video:focus {
+  color: #02897a;
+  text-decoration: none;
+}
+.background-hero-section {
+}
+/* END Section #region Work by Karpoff */
