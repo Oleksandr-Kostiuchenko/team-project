@@ -42,6 +42,12 @@ img {
 
 /*-------Header-------*/
 
+<<<<<<< HEAD
+=======
+.header {
+}
+
+>>>>>>> 9e0c2dcc6e470747b6427233dc9cc82b66ed42b8
 .header-container {
   display: flex;
   align-items: center;
@@ -67,6 +73,12 @@ img {
   gap: 30px;
 }
 
+<<<<<<< HEAD
+=======
+.header-nav-item {
+}
+
+>>>>>>> 9e0c2dcc6e470747b6427233dc9cc82b66ed42b8
 .header-nav-link {
   font-size: 16px;
   line-height: 1.75;
@@ -85,6 +97,12 @@ img {
   gap: 24px;
 }
 
+<<<<<<< HEAD
+=======
+.header-btn-item {
+}
+
+>>>>>>> 9e0c2dcc6e470747b6427233dc9cc82b66ed42b8
 .header-btn {
   font-weight: 600;
   font-size: 16px;
@@ -160,6 +178,7 @@ img {
 }
 /* -----/product section----- */
 
+<<<<<<< HEAD
 /* -----Content Strategies---------*/
 
 .strategies {
@@ -237,3 +256,99 @@ img {
 }
 
 /*------/Content Strategies-------*/
+=======
+/* ------feedback section-----*/
+.feedback-section {
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.feedback-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+
+  margin-bottom: 10px;
+}
+
+.feedback-title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  max-width: 537px;
+  margin: 0 auto 40px;
+}
+
+.feedback-card {
+  display: flex;
+  column-gap: 64px;
+}
+
+.feedback-card-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  width: calc((100% - 128px) / 3);
+  padding: 28px 26px;
+}
+
+.stars-list {
+  display: flex;
+  margin-left: 2px;
+  margin-bottom: 16px;
+  gap: 3.65px;
+}
+.stars-item {
+  display: flex;
+  align-items: center;
+}
+
+.feed-card-text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.client-container {
+  display: flex;
+}
+
+.foto-feedback {
+  border-radius: 100%;
+  stroke-width: 1px;
+  stroke: #bdbdbd;
+  height: 50px;
+}
+
+.name-job-container {
+  margin-left: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-name-client {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.card-job-client {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+  margin-top: 0;
+}
+/* ------/feedback section----*/
+>>>>>>> 9e0c2dcc6e470747b6427233dc9cc82b66ed42b8
