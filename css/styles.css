@@ -254,6 +254,89 @@ img {
 }
 /* -----/product section----- */
 
+
+/* ----process section------ */
+
+.process-section {
+  padding: 50px 0;
+}
+
+.process-section-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.process-section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #22343d;
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.process-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 100px;
+  justify-content: center;
+}
+
+.process-section-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.process-item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2f281e;
+  background-image: url(../images/cloud.png);
+  width: 301px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+
+.process-section-btn {
+  display: block;
+  border-radius: 4px;
+  min-width: 216px;
+  height: 53px;
+  padding: 15px 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.process-section-btn:hover,
+.process-section-btn:focus {
+  background-color: #12a997;
+}
+
+.process-section-item.revers {
+  flex-direction: row-reverse;
+}
+
+/* ------/process section------ */
 /* -----Content Strategies---------*/
 
 .strategies {
@@ -331,6 +414,7 @@ img {
 }
 
 /*------/Content Strategies-------*/
+
 
 /* ------feedback section-----*/
 .feedback-section {
